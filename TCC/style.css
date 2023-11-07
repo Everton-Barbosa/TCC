@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Asap', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(255, 123, 0);
+    height: 8vh;
+}
+
+header a {
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+    transition: 0.5s;
+    
+}
